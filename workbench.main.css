@@ -50,7 +50,7 @@
  .vs-dark .custom-checkbox.checked{border-color:#007acc}
  .hc-black .custom-checkbox{background:none;border:none}
  .hc-black .custom-checkbox:hover{background:none}
- .hc-black .custom-checkbox.checked{border:1px solid #f38518}
+ .hc-black .custom-checkbox.checked{border:1px solid #666666}
  .context-view{position:absolute;z-index:11}
  .context-view .tooltip{padding:5px;position:relative;margin-top:4px;margin-right:4px;max-width:350px;-webkit-animation:fadeIn .15s linear;animation:fadeIn .15s linear}
  .context-view .tooltip:after,.context-view .tooltip:before{content:'';position:absolute;border-color:transparent;border-style:solid}
@@ -131,13 +131,13 @@
  .monaco-list-row.scrolling{display:none}
  .monaco-list-row:hover{background-color:#f0f0f0}
  .vs-dark .monaco-list-row:hover{background-color:hsla(0,0%,100%,.08)}
- .hc-black .monaco-list-row:hover{outline:1px dashed #f38518;background:transparent}
+ .hc-black .monaco-list-row:hover{outline:1px dashed #666666;background:transparent}
  .monaco-list-row.selected{background-color:#4fa7ff;color:#fff}
  .vs-dark .monaco-list-row.selected{background-color:#0e639c;color:#fff}
- .hc-black .monaco-list-row.selected{border:1px solid #f38518}
+ .hc-black .monaco-list-row.selected{border:1px solid #666666}
  .monaco-list-row.focused{background-color:#dcebfc}
  .vs-dark .monaco-list-row.focused{background-color:#073655}
- .hc-black .monaco-list-row.focused{outline:1px dotted #f38518;background:transparent}
+ .hc-black .monaco-list-row.focused{outline:1px dotted #666666;background:rgba(127,127,127,0.2)}
  .global-message-list{font-size:12px;position:absolute;z-index:12;color:#eee;list-style-type:none;line-height:35px;margin:0;padding:0;width:70%;left:15%}
  .vs .global-message-list{box-shadow:0 2px 8px #a8a8a8}
  .vs-dark .global-message-list{box-shadow:0 2px 8px #000}
@@ -509,10 +509,10 @@ Applies to all other files
 .vs-dark .monaco-tree .monaco-tree-rows>.monaco-tree-row.has-children:hover:not(.selected):not(.focused)>.content:after{border-left-color:#2a2d2e}
 .vs-dark .monaco-tree .monaco-tree-rows>.monaco-tree-row.has-children.loading>.content:before{background-image:url(../base/parts/tree/browser/loading-dark.svg)}
 .hc-black .monaco-tree .monaco-tree-rows>.monaco-tree-row{background:none!important}
-.hc-black .monaco-tree.focused .monaco-tree-rows>.monaco-tree-row.focused:not(.highlighted){border:1px dotted #f38518}
-.hc-black .monaco-tree.focused .monaco-tree-rows>.monaco-tree-row.selected:not(.highlighted),.hc-black .monaco-tree .monaco-tree-rows>.monaco-tree-row.selected:not(.highlighted){border:1px solid #f38518}
-.hc-black .monaco-tree .monaco-tree-rows>.monaco-tree-row:hover:not(.highlighted):not(.selected):not(.focused){border:1px dashed #f38518;margin-top:-1px;margin-bottom:1px;margin-left:-1px}
-.hc-black .monaco-tree .monaco-tree-rows>.monaco-tree-row.drop-target,.hc-black .monaco-tree .monaco-tree-wrapper.drop-target{background:none!important;border:1px dashed #f38518}
+.hc-black .monaco-tree.focused .monaco-tree-rows>.monaco-tree-row.focused:not(.highlighted){border:1px dotted #666666}
+.hc-black .monaco-tree.focused .monaco-tree-rows>.monaco-tree-row.selected:not(.highlighted),.hc-black .monaco-tree .monaco-tree-rows>.monaco-tree-row.selected:not(.highlighted){border:1px solid #666666}
+.hc-black .monaco-tree .monaco-tree-rows>.monaco-tree-row:hover:not(.highlighted):not(.selected):not(.focused){border:1px dashed #666666;margin-top:-1px;margin-bottom:1px;margin-left:-1px}
+.hc-black .monaco-tree .monaco-tree-rows>.monaco-tree-row.drop-target,.hc-black .monaco-tree .monaco-tree-wrapper.drop-target{background:none!important;border:1px dashed #666666}
 .hc-black .monaco-tree .monaco-tree-rows>.monaco-tree-row.has-children>.content:before{border:none;content:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTYgNHY4bDQtNC00LTR6bTEgMi40MTRsMS41ODYgMS41ODYtMS41ODYgMS41ODZ2LTMuMTcyeiIvPjwvc3ZnPg==);top:2px;left:-16px}
 .hc-black .monaco-tree .monaco-tree-rows>.monaco-tree-row.has-children>.content:after{border:none}
 .hc-black .monaco-tree .monaco-tree-rows>.monaco-tree-row.expanded>.content:before{border:none;content:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTExIDEwLjA3aC01LjY1Nmw1LjY1Ni01LjY1NnY1LjY1NnoiLz48L3N2Zz4=);top:3px}
@@ -520,7 +520,7 @@ Applies to all other files
 .monaco-editor .current-line{display:block;position:absolute;left:0;top:0;box-sizing:border-box}
 .monaco-editor.vs.focused .current-line{border:2px solid #eee}
 .monaco-editor.vs-dark.focused .current-line{border:2px solid #282828}
-.monaco-editor.hc-black.focused .current-line{border:2px solid #f38518}
+.monaco-editor.hc-black.focused .current-line{background:#111111;border:none;}
 .monaco-editor .lines-content .cdr{position:absolute}
 .monaco-editor .glyph-margin{position:absolute;top:0}
 .monaco-editor.vs .glyph-margin{background:#fff}
@@ -618,7 +618,7 @@ Applies to all other files
 .monaco-editor .bracket-match{box-sizing:border-box;background-color:rgba(0,100,0,.1)}
 .monaco-editor.vs .bracket-match{border:1px solid #b9b9b9}
 .monaco-editor.vs-dark .bracket-match{border:1px solid #888}
-.monaco-editor.hc-black .bracket-match{border:1px solid #fff}
+.monaco-editor.hc-black .bracket-match{border:none;border-bottom:1px solid #777777}
 .monaco-editor .token.whitespace{display:inline-block}
 .monaco-editor.hc-black .token{mix-blend-mode:difference}
 .monaco-editor.vs .token{color:#000}
@@ -737,9 +737,9 @@ Applies to all other files
 .monaco-editor.hc-black .find-widget .close-fw:before{content:url(../editor/contrib/find/browser/images/close-dark.svg);top:1px;left:0}
 .monaco-editor.hc-black .find-widget .expand:before{content:url(../editor/contrib/find/browser/images/expando-expanded-dark.svg);top:38%;left:40%}
 .monaco-editor.hc-black .find-widget .collapse:before{content:url(../editor/contrib/find/browser/images/expando-collapsed-dark.svg);top:30%;left:40%}
-.monaco-editor.hc-black .findMatch{background:none;border:1px dotted #f38518;box-sizing:border-box}
-.monaco-editor.hc-black .currentFindMatch{background:none;padding:1px;border:2px solid #f38518;box-sizing:border-box}
-.monaco-editor.hc-black .findScope{background:none;border:1px dashed #f38518;opacity:.4}
+.monaco-editor.hc-black .findMatch{background:none;border:1px dotted #666666;box-sizing:border-box}
+.monaco-editor.hc-black .currentFindMatch{background:none;padding:1px;border:2px solid #666666;box-sizing:border-box}
+.monaco-editor.hc-black .findScope{background:none;border:1px dashed #666666;opacity:.4}
 .monaco-editor.hc-black .find-widget .monaco-findInput,.monaco-editor.hc-black .find-widget .replace-input{background-color:#000}
 .monaco-editor .margin-view-overlays .folding{background-repeat:no-repeat;background-origin:border-box;background-position:3px;background-size:15px;margin-left:5px;cursor:pointer}
 .monaco-editor .margin-view-overlays:hover .folding{background-image:url(../editor/contrib/folding/browser/arrow-expand.svg)}
@@ -864,12 +864,12 @@ Applies to all other files
 .monaco-editor.vs-dark .reference-zone-widget .ref-tree .monaco-tree.focused .monaco-tree-rows>.monaco-tree-row.selected.expanded>.content:before{border-right-color:#fff;border-left-color:transparent}
 .monaco-editor.vs-dark .reference-zone-widget .ref-tree .reference-file{color:#fff}
 .monaco-editor.hc-black .reference-zone-widget,.monaco-editor.hc-black .reference-zone-widget .preview .monaco-editor,.monaco-editor.hc-black .reference-zone-widget .preview .monaco-editor-background,.monaco-editor.hc-black .reference-zone-widget .preview .monaco-editor .line-numbers,.monaco-editor.hc-black .reference-zone-widget .preview .monaco-editor .lines-decorations{background-color:#0c141f}
-.monaco-editor.hc-black .reference-zone-widget .preview .reference-decoration{background:none;border:2px solid #f38518;box-sizing:border-box}
+.monaco-editor.hc-black .reference-zone-widget .preview .reference-decoration{background:#111111;border:none;box-sizing:border-box}
 .monaco-editor.hc-black .reference-zone-widget .ref-tree{background-color:#000;color:#fff}
 .monaco-editor.hc-black .reference-zone-widget .ref-tree .reference-file{color:#fff;line-height:20px;font-weight:700}
 .monaco-editor.hc-black .reference-zone-widget .ref-tree .reference-file .directory{font-weight:400}
 .monaco-editor.hc-black .reference-zone-widget .ref-tree .monaco-tree.focused .monaco-tree-rows>.monaco-tree-row.selected:not(.highlighted){background:none;color:#fff!important}
-.monaco-editor.hc-black .reference-zone-widget .ref-tree .referenceMatch{background:none;border:1px dotted #f38518}
+.monaco-editor.hc-black .reference-zone-widget .ref-tree .referenceMatch{background:none;border:1px dotted #666666}
 .monaco-editor .rename-box{box-shadow:0 2px 8px #a8a8a8;z-index:1;color:inherit}
 .monaco-editor.vs-dark .rename-box{box-shadow:0 2px 8px #000}
 .monaco-editor .rename-box .rename-input{border:1px solid #39f;font-size:13px;padding:4px}
@@ -966,7 +966,7 @@ Applies to all other files
 .monaco-editor.hc-black .suggest-widget .monaco-list .monaco-list-row .icon.reference:before{content:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGcgZmlsbD0iI0U4QUI1MyI+PHBhdGggZD0iTTYgN2gtNGwtMSAxdjNsMSAxaDRsMS0xdi0zbC0xLTF6bTAgNGgtNHYtMWg0djF6bTAtMmgtNHYtMWg0djF6TTEwIDNoLTRsLTEgMXYyaDV2MWgtMi41ODZsLjU4Ni41ODZ2LjQxNGgybDEtMXYtM2wtMS0xem0wIDJoLTR2LTFoNHYxeiIvPjwvZz48L3N2Zz4=)}
 .monaco-editor.vs .selectionHighlight{background:rgba(173,214,255,.3)}
 .monaco-editor.vs-dark .selectionHighlight{background:rgba(173,214,255,.15)}
-.monaco-editor.hc-black .selectionHighlight{border:1px dotted #f38518;box-sizing:border-box}
+.monaco-editor.hc-black .selectionHighlight{border:1px dotted #666666;box-sizing:border-box}
 .monaco-editor.vs .wordHighlight{background:rgba(87,87,87,.25)}
 .monaco-editor.vs-dark .wordHighlight{background:rgba(87,87,87,.72)}
 .monaco-editor.hc-black .wordHighlight{background:none}
@@ -1050,7 +1050,7 @@ Applies to all other files
 .monaco-workbench>.activitybar>.content .monaco-action-bar .action-label{display:flex;overflow:hidden;height:40px;line-height:40px;margin-right:0;padding:0 0 0 50px;box-sizing:border-box;background-position:9px;background-repeat:no-repeat;opacity:.6;font-size:15px;color:#fff;text-shadow:0 1px 0 rgba(0,0,0,.8)}
 .monaco-workbench>.activitybar>.content .monaco-action-bar .action-item .action-label:focus:before,.monaco-workbench>.activitybar>.content .monaco-action-bar .badge:active:before{content:"";position:absolute;top:4px;height:32px;width:0;border-left:2px solid}
 .vs-dark .monaco-workbench>.activitybar>.content .monaco-action-bar .action-item .action-label:focus:before,.vs-dark .monaco-workbench>.activitybar>.content .monaco-action-bar .badge:active:before,.vs .monaco-workbench>.activitybar>.content .monaco-action-bar .action-item .action-label:focus:before,.vs .monaco-workbench>.activitybar>.content .monaco-action-bar .badge:active:before{border-left-color:#007acc}
-.hc-black .monaco-workbench>.activitybar>.content .monaco-action-bar .action-item .action-label:focus:before,.hc-black .monaco-workbench>.activitybar>.content .monaco-action-bar .badge:active:before{border-left-color:#f38518}
+.hc-black .monaco-workbench>.activitybar>.content .monaco-action-bar .action-item .action-label:focus:before,.hc-black .monaco-workbench>.activitybar>.content .monaco-action-bar .badge:active:before{border-left-color:#666666}
 .monaco-workbench>.activitybar.left>.content .monaco-action-bar .action-item .action-label:focus:before,.monaco-workbench>.activitybar.left>.content .monaco-action-bar .badge:active:before{left:1px}
 .monaco-workbench>.activitybar.right>.content .monaco-action-bar .action-item .action-label:focus:before,.monaco-workbench>.activitybar.right>.content .monaco-action-bar .badge:active:before{right:1px}
 .monaco-workbench>.activitybar>.content .monaco-action-bar .action-label>.label{flex:1 1 auto;overflow:hidden}
@@ -1066,7 +1066,7 @@ Applies to all other files
 .hc-black .monaco-workbench>.activitybar>.content .monaco-action-bar .action-label,.hc-black .monaco-workbench>.activitybar>.content .monaco-action-bar .action-label.active{opacity:1}
 .hc-black .monaco-workbench>.activitybar>.content .monaco-action-bar .action-label:before{opacity:.6;position:absolute;top:4px;left:9px;height:32px;width:32px}
 .hc-black .monaco-workbench>.activitybar>.content .monaco-action-bar .action-item .action-label.active:before,.hc-black .monaco-workbench>.activitybar>.content .monaco-action-bar .action-item:hover .action-label:before{opacity:1}
-.hc-black .monaco-workbench>.activitybar>.content .monaco-action-bar .action-item .action-label.active:before{outline:1px solid #f38518}
+.hc-black .monaco-workbench>.activitybar>.content .monaco-action-bar .action-item .action-label.active:before{outline:1px solid #666666}
 .hc-black .monaco-workbench>.activitybar>.content .monaco-action-bar.global .action-item .action-label.active:before{border:none}
 .hc-black .monaco-workbench>.activitybar>.content .monaco-action-bar .badge .badge-content{background:none;background-color:#000;border:1px solid #6fc3df}
 .monaco-workbench>.part.activitybar{z-index:5;min-width:50px;width:50px;transition:width .2s ease-out}
@@ -1199,7 +1199,7 @@ Applies to all other files
 .monaco-shell a.plain,.monaco-shell a.plain.hover,.monaco-shell a.plain:hover{color:inherit;text-decoration:none}
 .monaco-shell.vs .synthetic-focus,.monaco-shell.vs [tabindex="0"]:focus,.monaco-shell.vs input[type=button]:focus,.monaco-shell.vs input[type=checkbox]:focus,.monaco-shell.vs input[type=submit]:focus,.monaco-shell.vs input[type=text]:focus,.monaco-shell.vs select:focus,.monaco-shell.vs textarea:focus{outline:1px solid rgba(0,122,204,.4);outline-offset:-1px;opacity:1!important}
 .monaco-shell.vs-dark .synthetic-focus,.monaco-shell.vs-dark [tabindex="0"]:focus,.monaco-shell.vs-dark input[type=button]:focus,.monaco-shell.vs-dark input[type=checkbox]:focus,.monaco-shell.vs-dark input[type=submit]:focus,.monaco-shell.vs-dark input[type=text]:focus,.monaco-shell.vs-dark select:focus,.monaco-shell.vs-dark textarea:focus{outline:1px solid rgba(14,99,156,.6);outline-offset:-1px;opacity:1!important}
-.monaco-shell.hc-black .synthetic-focus,.monaco-shell.hc-black [tabindex="0"]:focus,.monaco-shell.hc-black input[type=button]:focus,.monaco-shell.hc-black input[type=checkbox]:focus,.monaco-shell.hc-black input[type=submit]:focus,.monaco-shell.hc-black input[type=text]:focus,.monaco-shell.hc-black select:focus,.monaco-shell.hc-black textarea:focus{outline:2px solid #f38518;outline-offset:-1px}
+.monaco-shell.hc-black .synthetic-focus,.monaco-shell.hc-black [tabindex="0"]:focus,.monaco-shell.hc-black input[type=button]:focus,.monaco-shell.hc-black input[type=checkbox]:focus,.monaco-shell.hc-black input[type=submit]:focus,.monaco-shell.hc-black input[type=text]:focus,.monaco-shell.hc-black select:focus,.monaco-shell.hc-black textarea:focus{outline:2px solid #666666;outline-offset:-1px}
 .monaco-shell.vs-dark .action-button:focus,.monaco-shell.vs-dark .monaco-button:focus,.monaco-shell.vs .action-button:focus,.monaco-shell.vs .monaco-button:focus{outline-color:hsla(0,0%,100%,.5)}
 .monaco-shell.vs .action-button:focus,.monaco-shell.vs .monaco-button:focus{outline-offset:-2px}
 .monaco-shell.hc-black .action-button:focus{outline-offset:-4px}
@@ -1208,7 +1208,7 @@ Applies to all other files
 .monaco-shell .monaco-tree.focused.no-focused-item:focus:before{position:absolute;top:0;left:0;width:100%;height:100%;z-index:2;content:"";pointer-events:none}
 .monaco-shell.vs .monaco-tree.focused.no-focused-item:focus:before{outline:1px solid rgba(0,122,204,.4);outline-offset:-1px}
 .monaco-shell.vs-dark .monaco-tree.focused.no-focused-item:focus:before{outline:1px solid rgba(14,99,156,.6);outline-offset:-1px}
-.monaco-shell.hc-black .monaco-tree.focused.no-focused-item:focus:before{outline:2px solid #f38518;outline-offset:-2px}
+.monaco-shell.hc-black .monaco-tree.focused.no-focused-item:focus:before{outline:2px solid #666666;outline-offset:-2px}
 .monaco-shell .activitybar [tabindex="0"]:focus,.monaco-shell .monaco-inputbox.error.synthetic-focus,.monaco-shell .monaco-inputbox.error input[type=text]:focus,.monaco-shell .monaco-inputbox.info.synthetic-focus,.monaco-shell .monaco-inputbox.info input[type=text]:focus,.monaco-shell .monaco-inputbox.warning.synthetic-focus,.monaco-shell .monaco-inputbox.warning input[type=text]:focus,.monaco-shell .monaco-tree.focused.no-focused-item:active:before,.monaco-shell .monaco-tree.focused:focus,.monaco-shell .monaco-tree .monaco-tree-row .monaco-action-bar .action-item [tabindex="0"]:hover,.monaco-shell .part.editor .binary-container,.monaco-shell .part.editor .iframe-container,.monaco-shell .synthetic-focus :focus,.monaco-shell [tabindex="0"]:active,.monaco-shell input[type=button]:active,.monaco-shell input[type=checkbox]:active,.monaco-shell input[type=submit]:active,.monaco-shell select:active{outline:0!important}
 .monaco-shell a.prominent{text-decoration:underline}
 .monaco-shell a.strong{font-weight:700}a:active{color:inherit;background-color:inherit}
@@ -1431,7 +1431,7 @@ Applies to all other files
 .monaco-shell.hc-black .feedback-form .form-buttons .send,.monaco-shell.hc-black .feedback-form .form-buttons .send.in-progress,.monaco-shell.hc-black .feedback-form .form-buttons .send.success{background-color:#0c141f;color:#d4d4d4;border:1px solid #6fc3df}
 .monaco-shell.hc-black .feedback-form .form-buttons .send:hover{background-color:#0c141f}
 .monaco-shell.hc-black .feedback-form .sentiment{background:none;border:1px solid transparent}
-.monaco-shell.hc-black .feedback-form .sentiment.checked{border:1px solid #f38518}
+.monaco-shell.hc-black .feedback-form .sentiment.checked{border:1px solid #666666}
 .monaco-shell.hc-black .feedback-form .sentiment:before{height:21px;width:21px;display:inline-block;position:relative;top:3px;left:3px}
 .monaco-shell.hc-black .feedback-form .sentiment.smile:before{content:url(parts/feedback/browser/media/happy.svg)}
 .monaco-shell.hc-black .feedback-form .sentiment.frown:before{content:url(parts/feedback/browser/media/sad.svg)}

@@ -1,0 +1,2 @@
+zdt$ cp hc_black.json /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/extensions/theme-defaults/themes/hc_black.json 
+zdt:VSCode-workbench zdt$ cp workbench.main.css /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/out/vs/workbench/workbench.main.css 
