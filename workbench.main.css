@@ -1740,7 +1740,7 @@ to{transform:rotate(3turn)}}
 .hc-black .monaco-workbench .terminal-action.new:before{content:url(parts/terminal/electron-browser/media/new-inverse.svg)}
 .monaco-workbench .panel.integrated-terminal .xterm{background-color:transparent!important;position:relative}
 .monaco-workbench .panel.integrated-terminal .xterm:focus{outline:none}
-.hc-black .monaco-workbench .panel.integrated-terminal .xterm:focus{outline:2px solid #666666}
+.hc-black .monaco-workbench .panel.integrated-terminal .xterm:focus{outline:none}
 .monaco-workbench .panel.integrated-terminal .reverse-video{color:#1e1e1e}
 .vs-dark .monaco-workbench .panel.integrated-terminal .reverse-video{color:#ccc}
 .hc-black .monaco-workbench .panel.integrated-terminal .reverse-video{color:#fff}
