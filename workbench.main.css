@@ -1052,7 +1052,7 @@ Applies to all other files
 .monaco-workbench .panel.integrated-terminal{font-feature-settings:"liga" 0}
 .monaco-workbench .panel.integrated-terminal.enable-ligatures{font-feature-settings:"liga" 1}
 .monaco-workbench .panel.integrated-terminal .xterm{background-color:transparent!important;position:relative}
-.monaco-workbench .panel.integrated-terminal .xterm:focus{outline:none}.hc-black .monaco-workbench .panel.integrated-terminal .xterm.focus,.hc-black .monaco-workbench .panel.integrated-terminal .xterm:focus{outline:2px solid #666666}
+.monaco-workbench .panel.integrated-terminal .xterm:focus{outline:none}.hc-black .monaco-workbench .panel.integrated-terminal .xterm.focus,.hc-black .monaco-workbench .panel.integrated-terminal .xterm:focus{outline:none}
 .monaco-workbench .panel.integrated-terminal .xterm .xterm-helpers{position:absolute;top:0}
 .monaco-workbench .panel.integrated-terminal .xterm .xterm-helper-textarea{position:absolute;left:-9999em;top:-9999em;opacity:0;width:0;height:0;z-index:-10}
 .monaco-workbench .panel.integrated-terminal .xterm .xterm-helper-textarea:focus{opacity:0!important}
